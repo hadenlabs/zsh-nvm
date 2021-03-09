@@ -1,9 +1,9 @@
 {
   "keywords": [],
-  "name": "@equipindustry/zsh-nvm",
+  "name": "@hadenlabs/zsh-nvm",
   "description": "zsh-nvm for zsh",
   "private": true,
-  "repository": "ssh://git@github.com/equipindustry/zsh-nvm.git",
+  "repository": "ssh://git@github.com/hadenlabs/zsh-nvm.git",
   "author": "Luis Mayta <slovacus@gmail.com>",
   "license": "MIT",
   "stylintrc": ".stylintrc",
@@ -36,8 +36,8 @@
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@equipindustry/eslint-config": "^0.3.4",
-    "@equipindustry/prettierrc": "^0.2.0",
+    "@hadenlabs/eslint-config": "^0.3.4",
+    "@hadenlabs/prettierrc": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
     "babel": "^6.23.0",

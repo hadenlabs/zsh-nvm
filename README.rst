@@ -6,9 +6,9 @@ nvm for zsh
 |Build Status| |GitHub issues| |GitHub license| |Fossa|
 
 :Version: 0.1.1
-:Web: https://github.com/equipindustry/zsh-nvm
-:Download: https://github.com/equipindustry/zsh-nvm
-:Source: https://github.com/equipindustry/zsh-nvm
+:Web: https://github.com/hadenlabs/zsh-nvm
+:Download: https://github.com/hadenlabs/zsh-nvm
+:Source: https://github.com/hadenlabs/zsh-nvm
 :Keywords: zsh-nvm
 
 .. contents:: Table of Contents:
@@ -42,7 +42,7 @@ plugin by doing the following:
 1. Go to your oh-my-zsh custom plugins directory -
    ``cd ~/.oh-my-zsh/custom/plugins``
 2. Clone the plugin
-   ``bash   git clone https://github.com/equipindustry/zsh-nvm``\ bash
+   ``bash   git clone https://github.com/hadenlabs/zsh-nvm``\ bash
 3. Edit your ``.zshrc`` and add
    ``plugins=( ... zsh-nvm )`` to your list of
    plugins
@@ -54,10 +54,10 @@ plugin by doing the following:
 If you're using `Antigen <https://github.com/zsh-lovers/antigen>`__,
 install this plugin by doing the following:
 
-1. Add ``antigen bundle equipindustry/zsh-nvm`` to your
+1. Add ``antigen bundle hadenlabs/zsh-nvm`` to your
    ``.zshrc`` where you're adding your other plugins.
 2. Either open a new terminal to force zsh to load the new plugin, or
-   run ``antigen bundle equipindustry/zsh-nvm`` in a
+   run ``antigen bundle hadenlabs/zsh-nvm`` in a
    running zsh session.
 3. Enjoy!
 
@@ -71,11 +71,11 @@ install this plugin by doing the following:
 
     .. code-block:: bash
 
-        antibody bundle equipindustry/zsh-nvm
+        antibody bundle hadenlabs/zsh-nvm
 
     to your ``.zshrc`` where you're adding your other plugins.
 2. Either open a new terminal to force zsh to load the new plugin, or
-   run ``antibody bundle equipindustry/zsh-nvm`` in a
+   run ``antibody bundle hadenlabs/zsh-nvm`` in a
    running zsh session.
 3. Enjoy!
 
@@ -147,14 +147,14 @@ Feel free to contact me to discuss any issues, questions, or comments.
 
 |linkedin| |beacon| |made|
 
-Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
+Made with :coffee: and :pizza: by `Luis Mayta`_ and `hadenlabs`_.
 
 .. Links
 .. _`changelog`: CHANGELOG.rst
 .. _`contributors`: docs/source/AUTHORS.rst
 .. _`contributing`: docs/source/CONTRIBUTING.rst
 
-.. _`equipindustry`: https://github.com/equipindustry
+.. _`hadenlabs`: https://github.com/hadenlabs
 .. _`Luis Mayta`: https://github.com/luismayta
 
 
@@ -166,14 +166,14 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 .. _`Website`: https://luismayta.github.io
 .. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
 
-.. |Build Status| image:: https://travis-ci.org/equipindustry/zsh-nvm.svg
-   :target: https://travis-ci.org/equipindustry/zsh-nvm
-.. |GitHub issues| image:: https://img.shields.io/github/issues/equipindustry/zsh-nvm.svg
-   :target: https://github.com/equipindustry/zsh-nvm/issues
+.. |Build Status| image:: https://travis-ci.org/hadenlabs/zsh-nvm.svg
+   :target: https://travis-ci.org/hadenlabs/zsh-nvm
+.. |GitHub issues| image:: https://img.shields.io/github/issues/hadenlabs/zsh-nvm.svg
+   :target: https://github.com/hadenlabs/zsh-nvm/issues
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
    :target: LICENSE
-.. |Fossa| image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fequipindustry%2Fzsh-nvm.svg?type=shield
-   :target: https://app.fossa.io/projects/git%2Bgithub.com%2Fequipindustry%2Fzsh-nvm?ref=badge_shield
+.. |Fossa| image:: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhadenlabs%2Fzsh-nvm.svg?type=shield
+   :target: https://app.fossa.io/projects/git%2Bgithub.com%2Fhadenlabs%2Fzsh-nvm?ref=badge_shield
 
 .. Team:
 .. |Luis Mayta| image:: https://github.com/luismayta.png?size=100
@@ -182,8 +182,8 @@ Made with :coffee: and :pizza: by `Luis Mayta`_ and `equipindustry`_.
 .. Footer:
 .. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
    :target: https://pe.linkedin.com/in/luismayta
-.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/equipindustry/zsh-nvm/readme
-   :target: https://github.com/equipindustry/zsh-nvm
+.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/hadenlabs/zsh-nvm/readme
+   :target: https://github.com/hadenlabs/zsh-nvm
 .. |made| image:: https://img.shields.io/badge/Made%20with-Zsh-1f425f.svg
     :target: http://www.zsh.org
 
