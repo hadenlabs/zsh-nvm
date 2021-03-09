@@ -2,7 +2,7 @@
 Support & Contact
 =================
 
-If you have any problems with starting zsh-nvm, please report it on GitHub: https://github.com/equipindustry/zsh-nvm
+If you have any problems with starting zsh-nvm, please report it on GitHub: https://github.com/hadenlabs/zsh-nvm
 
 
 Who is behind zsh-nvm
