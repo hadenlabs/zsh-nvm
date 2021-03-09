@@ -3,7 +3,7 @@
 
 function nvm::internal::nvm::install {
     message_info "Installing ${NVM_PACKAGE_NAME}"
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
     nvm::internal::nvm::load
     message_success "Installed ${NVM_PACKAGE_NAME}"
 }
@@ -12,8 +12,6 @@ function nvm::internal::nvm::load {
     [ -e "${YARN_PATH}/bin" ] && export PATH="${PATH}:${YARN_PATH}/bin"
     # shellcheck source=/dev/null
     [ -s "${NVM_DIR}/nvm.sh" ] && source "${NVM_DIR}/nvm.sh" # This loads nvm
-    # shellcheck source=/dev/null
-    [ -s "${NVM_DIR}/bash_completion" ] && source "${NVM_DIR}/bash_completion"  # This loads nvm bash_completion
 }
 
 function nvm::internal::curl::install {
