@@ -27,8 +27,7 @@ zsh-nvm is an open-sourced software licensed under the [MIT license](LICENSE.md)
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
 ```{bash}
-https://github.com/luismayta/zsh-core
-https://github.com/luismayta/zsh-notify
+https://github.com/hadenlabs/zsh-core
 ```
 
 ## Installation
@@ -65,15 +64,33 @@ to your `.zshrc` where you're adding your other plugins.
 2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-nvm` in a running zsh session.
 3.  Enjoy!
 
-## Usage
+## Functions
 
-```bash
-make setup
-```
+zsh nvm includes a small utility `nvm` to fetch and install new packages.
 
-## :page_facing_up: Examples
+#### `nvm::install`
 
-### common
+Install nvm.
+
+#### `nvm::load`
+
+Load path nvm.
+
+#### `nvm::upgrade`
+
+Upgrade version nvm.
+
+#### `nvm::package::all::install`
+
+Install all package of nvm.
+
+#### `nvm::install::versions`
+
+Install versions of config for nvm.
+
+#### `nvm::install::version::global`
+
+Install a version global of nvm.
 
 ## Help
 
