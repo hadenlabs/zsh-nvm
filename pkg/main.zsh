@@ -14,12 +14,6 @@ function nvm::pkg::main::factory {
         source "${ZSH_NVM_PATH}"/pkg/linux.zsh
       ;;
     esac
-
-    # shellcheck source=/dev/null
-    source "${ZSH_NVM_PATH}"/pkg/helper.zsh
-
-    # shellcheck source=/dev/null
-    source "${ZSH_NVM_PATH}"/pkg/alias.zsh
 }
 
 nvm::pkg::main::factory
