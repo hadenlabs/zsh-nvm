@@ -55,7 +55,7 @@ function nvm::internal::nvm::load {
 
 function nvm::internal::curl::install {
     message_info "Installing curl for ${NVM_PACKAGE_NAME}"
-    if ! type -p brew > /dev/null; then
+    if ! core::exists brew; then
         message_warning "${NVM_MESSAGE_BREW}"
     fi
     brew install curl
@@ -63,7 +63,7 @@ function nvm::internal::curl::install {
 }
 
 function nvm::internal::packages::install {
-    if ! type -p yarn > /dev/null; then
+    if ! core::exists yarn; then
         npm install --global yarn
     fi
 
@@ -76,7 +76,7 @@ function nvm::internal::packages::install {
 }
 
 function nvm::internal::version::all::install {
-    if ! type -p nvm > /dev/null; then
+    if ! core::exists nvm; then
         message_warning "not found nvm"
         return
     fi
@@ -92,7 +92,7 @@ function nvm::internal::version::all::install {
 }
 
 function nvm::internal::version::global::install {
-    if ! type -p nvm > /dev/null; then
+    if ! core::exists nvm; then
         message_warning "not found nvm"
         return
     fi
