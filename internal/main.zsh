@@ -17,7 +17,6 @@ function nvm::internal::main::factory {
 }
 
 nvm::internal::main::factory
-
 nvm::internal::nvm::load
 
 if ! core::exists curl; then nvm::internal::curl::install; fi
