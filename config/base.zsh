@@ -9,9 +9,9 @@ export NVM_VERSIONS=(
     10.16.3
     12.13.0
     12.14.1
-    12.14.5
+    14.15.5
 )
-export NVM_VERSION_GLOBAL=12.14.5
+export NVM_VERSION_GLOBAL=14.15.5
 export NVM_PACKAGES=(
     lambda-pure-prompt
     pure-prompt prettier
