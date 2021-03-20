@@ -39,9 +39,7 @@ requirements: |-
 
   This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-  ```{bash}
-  https://github.com/hadenlabs/zsh-core
-  ```
+  * [zsh-core](https://github.com/hadenlabs/zsh-core)
 
 installation:
   - 'docs/include/installation/oh-my-zsh.md'
