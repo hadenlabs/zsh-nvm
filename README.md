@@ -18,17 +18,11 @@
 
 zsh-nvm plugin for zsh.
 
-## :page_facing_up: License
-
-zsh-nvm is an open-sourced software licensed under the [MIT license](LICENSE.md).
-
 ## Requirements
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-```{bash}
-https://github.com/hadenlabs/zsh-core
-```
+- [zsh-core](https://github.com/hadenlabs/zsh-core)
 
 ## Installation
 
@@ -104,7 +98,7 @@ File a GitHub [issue](https://github.com/hadenlabs/zsh-nvm/issues), send us an [
 
 Please use the [issue tracker](https://github.com/hadenlabs/zsh-nvm/issues) to report any bugs or file feature requests.
 
-### Developing
+### Development
 
 In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
@@ -116,7 +110,7 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 **NOTE:** Be sure to rebase the latest changes from "upstream" before making a pull request!
 
-### Versioning
+#### Versioning
 
 Releases are managed using github release feature. We use [Semantic Versioning](http://semver.org) for all the releases. Every change made to the code base will be referred to in the release notes (except for cleanups and refactorings).
 
@@ -127,6 +121,10 @@ Copyright © 2018-2021 [Hadenlabs](https://hadenlabs.com)
 ## Trademarks
 
 All other trademarks referenced herein are the property of their respective owners.
+
+## License
+
+The code and styles are licensed under the MIT license [See project license.](LICENSE).
 
 ## Don't forget to 🌟 Star 🌟 the repo if you like zsh-nvm
 
