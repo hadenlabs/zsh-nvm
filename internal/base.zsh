@@ -86,7 +86,7 @@ function nvm::internal::version::global::install {
     fi
     message_info "Installing version global of nvm ${NVM_VERSION_GLOBAL}"
     nvm install "${NVM_VERSION_GLOBAL}"
-    nvm use "${NVM_VERSION_GLOBAL}"
+    nvm alias default "${NVM_VERSION_GLOBAL}"
     message_success "Installed version global of nvm ${NVM_VERSION_GLOBAL}"
 }
 
