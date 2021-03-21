@@ -53,25 +53,13 @@ function nvm::internal::nvm::load {
     }
 }
 
-function nvm::internal::curl::install {
-    message_info "Installing curl for ${NVM_PACKAGE_NAME}"
-    if ! core::exists brew; then
-        message_warning "${NVM_MESSAGE_BREW}"
-    fi
-    brew install curl
-    message_success "Installed curl for ${NVM_PACKAGE_NAME}"
-}
-
 function nvm::internal::packages::install {
     if ! core::exists yarn; then
         npm install --global yarn
     fi
 
     message_info "Installing required yarn packages"
-
-    for package in "${NVM_PACKAGES[@]}"; do
-        yarn global add "${package}"
-    done
+    yarn global add "${NVM_PACKAGES[@]}"
     message_success "Installed required yarn packages"
 }
 
