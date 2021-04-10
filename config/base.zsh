@@ -30,4 +30,5 @@ export NVM_PACKAGES=(
     @compare/github
     get-graphql-schema
     surge
+    markdown-link-check
 )
