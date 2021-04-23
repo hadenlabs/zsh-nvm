@@ -32,4 +32,8 @@ export NVM_PACKAGES=(
     get-graphql-schema
     surge
     markdown-link-check
+    yo
+    yo-complete
+    generator-code
+    nativefier
 )
