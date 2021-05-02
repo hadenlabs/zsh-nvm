@@ -14,7 +14,7 @@
 
 # zsh-nvm
 
-[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/zsh-nvm.svg?label=latest&sort=semver)](https://github.com/hadenlabs/zsh-nvm/releases) [![Lint](https://github.com/hadenlabs/zsh-nvm/actions/workflows/lint.yml/badge.svg?branch=develop)](https://github.com/hadenlabs/zsh-nvm/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/zsh-nvm.svg)](https://github.com/hadenlabs/zsh-nvm/issues) [![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-nvm.svg)](https://github.com/hadenlabs/zsh-nvm/releases) [![Beacon](https://ga-beacon.appspot.com/G-MZEK48EGE8/zsh-nvm/readme)](https://github.com/hadenlabs/zsh-nvm)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/hadenlabs/zsh-nvm?label=latest&sort=semver)](https://github.com/hadenlabs/zsh-nvm/releases) [![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-nvm)](https://github.com/hadenlabs/zsh-nvm/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-nvm/lint-code)](https://github.com/hadenlabs/zsh-nvm/actions) [![Issues](https://img.shields.io/github/issues/hadenlabs/zsh-nvm)](https://github.com/hadenlabs/zsh-nvm/issues) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735)](https://keepachangelog.com) [![Beacon](https://ga-beacon.appspot.com/G-MZEK48EGE8/zsh-nvm/readme)](https://github.com/hadenlabs/zsh-nvm)
 
 zsh-nvm plugin for zsh.
 
