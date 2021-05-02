@@ -36,4 +36,5 @@ export NVM_PACKAGES=(
     yo-complete
     generator-code
     nativefier
+    vsce
 )
