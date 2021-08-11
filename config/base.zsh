@@ -3,7 +3,7 @@
 
 export YARN_PATH="${HOME}"/.yarn
 export NVM_DIR="${HOME}/.nvm"
-export NVM_MESSAGE_BREW="Please install brew or use antibody bundle hadenlabs/zsh-brew branch:develop"
+export NVM_MESSAGE_BREW="Please install brew or use antibody bundle hadenlabs/zsh-core branch:develop"
 export NVM_PACKAGE_NAME=nvm
 export NVM_VERSIONS=(
     14.15.5
