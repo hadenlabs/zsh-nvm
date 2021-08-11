@@ -6,9 +6,6 @@ export NVM_DIR="${HOME}/.nvm"
 export NVM_MESSAGE_BREW="Please install brew or use antibody bundle hadenlabs/zsh-brew branch:develop"
 export NVM_PACKAGE_NAME=nvm
 export NVM_VERSIONS=(
-    10.16.3
-    12.13.0
-    12.14.1
     14.15.5
     14.16.1
 )
@@ -33,7 +30,6 @@ export NVM_PACKAGES=(
     surge
     markdown-link-check
     yo
-    yo-complete
     generator-code
     nativefier
     vsce
