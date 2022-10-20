@@ -33,4 +33,5 @@ export NVM_PACKAGES=(
     generator-code
     nativefier
     vsce
+    vercel
 )

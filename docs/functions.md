@@ -1,3 +1,10 @@
+<!-- Space: Projects -->
+<!-- Parent: ZshNvm -->
+<!-- Title: Functions ZshNvm -->
+<!-- Label: Functions -->
+<!-- Include: disclaimer.md -->
+<!-- Include: ac:toc -->
+
 ## Functions
 
 zsh nvm includes a small utility `nvm` to fetch and install new packages.
