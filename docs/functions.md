@@ -2,7 +2,7 @@
 <!-- Parent: ZshNvm -->
 <!-- Title: Functions ZshNvm -->
 <!-- Label: Functions -->
-<!-- Include: disclaimer.md -->
+<!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ## Functions

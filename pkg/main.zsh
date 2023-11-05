@@ -14,6 +14,7 @@ function nvm::pkg::main::factory {
         source "${ZSH_NVM_PATH}"/pkg/linux.zsh
       ;;
     esac
+
 }
 
 nvm::pkg::main::factory
