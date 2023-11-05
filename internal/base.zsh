@@ -3,7 +3,7 @@
 
 function nvm::internal::nvm::install {
     message_info "Installing ${NVM_PACKAGE_NAME}"
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+    curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/v${NVM_VERSION}/install.sh" | bash
     nvm::internal::nvm::load
     message_success "Installed ${NVM_PACKAGE_NAME}"
 }
@@ -14,18 +14,20 @@ function nvm::internal::nvm::load {
     # http://broken-by.me/lazy-load-nvm/
     nvm() {
         unset -f nvm
+        # shellcheck source=/dev/null
         export NVM_DIR=~/.nvm
         # shellcheck source=/dev/null
         [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        nvm "$@"
+        nvm "${@}"
     }
 
     node() {
         unset -f node
+        # shellcheck source=/dev/null
         export NVM_DIR=~/.nvm
         # shellcheck source=/dev/null
         [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        node "$@"
+        node "${@}"
     }
 
     npm() {
@@ -33,7 +35,7 @@ function nvm::internal::nvm::load {
         export NVM_DIR=~/.nvm
         # shellcheck source=/dev/null
         [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        npm "$@"
+        npm "${@}"
     }
 
     yarn() {
@@ -41,7 +43,7 @@ function nvm::internal::nvm::load {
         export NVM_DIR=~/.nvm
         # shellcheck source=/dev/null
         [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        yarn "$@"
+        yarn "${@}"
     }
 
     now() {
@@ -49,7 +51,7 @@ function nvm::internal::nvm::load {
         export NVM_DIR=~/.nvm
         # shellcheck source=/dev/null
         [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        now "$@"
+        now "${@}"
     }
 }
 

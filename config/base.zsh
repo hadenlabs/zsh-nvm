@@ -3,13 +3,15 @@
 
 export YARN_PATH="${HOME}"/.yarn
 export NVM_DIR="${HOME}/.nvm"
-export NVM_MESSAGE_BREW="Please install brew or use antibody bundle hadenlabs/zsh-core branch:develop"
+export NVM_MESSAGE_BREW="Please install brew or use antidote bundle hadenlabs/zsh-core"
 export NVM_PACKAGE_NAME=nvm
 export NVM_VERSIONS=(
     14.15.5
     14.16.1
+    21.1.0
 )
-export NVM_VERSION_GLOBAL=14.16.1
+export NVM_VERSION=0.39.5
+export NVM_VERSION_GLOBAL=21.1.0
 export NVM_PACKAGES=(
     lambda-pure-prompt
     pure-prompt prettier
