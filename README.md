@@ -23,6 +23,9 @@ zsh-nvm plugin for zsh.
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
 - [zsh-core](https://github.com/hadenlabs/zsh-core)
+- [gomplate](https://github.com/hairyhenderson/gomplate)
+- [python](https://www.python.org)
+- [taskfile](https://github.com/go-task/task)
 
 ## Installation
 
@@ -89,11 +92,15 @@ to your `.zshrc` where you're adding your other plugins.
 
 # How to use this project
 
+```bash
+task setup
+```
+
  <!-- Space: Projects -->
 <!-- Parent: ZshNvm -->
 <!-- Title: Functions ZshNvm -->
 <!-- Label: Functions -->
-<!-- Include: disclaimer.md -->
+<!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
 
 ## Functions
@@ -151,7 +158,7 @@ Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following co
 
 ## Copyright
 
-Copyright © 2018-2022 [Hadenlabs](https://hadenlabs.com)
+Copyright © 2018-2023 [Hadenlabs](https://hadenlabs.com)
 
 ## Trademarks
 

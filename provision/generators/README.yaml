@@ -14,7 +14,7 @@ email:
 # logo: docs/logo.png
 
 # License of this project
-license: 'LGPL-3.0'
+license: "LGPL-3.0"
 
 # Canonical GitHub repo
 github_repo: hadenlabs/zsh-nvm
@@ -57,9 +57,9 @@ usages:
   - docs/usage.md
 
 installation:
-  - 'docs/include/installation/oh-my-zsh.md'
-  - 'docs/include/installation/antigen.md'
-  - 'docs/include/installation/antibody.md'
+  - "docs/include/installation/oh-my-zsh.md"
+  - "docs/include/installation/antigen.md"
+  - "docs/include/installation/antibody.md"
 
 include:
-  - 'docs/functions.md'
+  - "docs/functions.md"

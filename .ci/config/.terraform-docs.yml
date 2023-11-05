@@ -1,8 +1,8 @@
-formatter: 'markdown' # this is required
-version: ''
+formatter: "markdown" # this is required
+version: ""
 
 header-from: main.tf
-footer-from: ''
+footer-from: ""
 
 recursive:
   enabled: false
@@ -12,10 +12,10 @@ sections:
   hide: []
   show: []
 
-content: ''
+content: ""
 
 output:
-  file: 'docs/include/terraform.md'
+  file: "docs/include/terraform.md"
   mode: replace
   template: |-
     <!-- markdown-link-check-disable -->
@@ -26,7 +26,7 @@ output:
 
 output-values:
   enabled: false
-  from: ''
+  from: ""
 
 sort:
   enabled: true
