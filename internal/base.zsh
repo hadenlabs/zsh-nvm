@@ -10,49 +10,6 @@ function nvm::internal::nvm::install {
 
 function nvm::internal::nvm::load {
     [ -e "${YARN_PATH}/bin" ] && export PATH="${PATH}:${YARN_PATH}/bin"
-    # Lazy load
-    # http://broken-by.me/lazy-load-nvm/
-    nvm() {
-        unset -f nvm
-        # shellcheck source=/dev/null
-        export NVM_DIR=~/.nvm
-        # shellcheck source=/dev/null
-        [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        nvm "${@}"
-    }
-
-    node() {
-        unset -f node
-        # shellcheck source=/dev/null
-        export NVM_DIR=~/.nvm
-        # shellcheck source=/dev/null
-        [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        node "${@}"
-    }
-
-    npm() {
-        unset -f npm
-        export NVM_DIR=~/.nvm
-        # shellcheck source=/dev/null
-        [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        npm "${@}"
-    }
-
-    yarn() {
-        unset -f yarn
-        export NVM_DIR=~/.nvm
-        # shellcheck source=/dev/null
-        [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        yarn "${@}"
-    }
-
-    now() {
-        unset -f now
-        export NVM_DIR=~/.nvm
-        # shellcheck source=/dev/null
-        [ -s "${NVM_DIR}/nvm.sh" ] && . "${NVM_DIR}/nvm.sh"  # This loads nvm
-        now "${@}"
-    }
 }
 
 function nvm::internal::packages::install {

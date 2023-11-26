@@ -6,12 +6,10 @@ export NVM_DIR="${HOME}/.nvm"
 export NVM_MESSAGE_BREW="Please install brew or use antidote bundle hadenlabs/zsh-core"
 export NVM_PACKAGE_NAME=nvm
 export NVM_VERSIONS=(
-    14.15.5
-    14.16.1
-    21.1.0
+    18.18.2
 )
 export NVM_VERSION=0.39.5
-export NVM_VERSION_GLOBAL=21.1.0
+export NVM_VERSION_GLOBAL=18.18.2
 export NVM_PACKAGES=(
     lambda-pure-prompt
     pure-prompt prettier
