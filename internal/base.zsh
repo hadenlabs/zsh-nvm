@@ -9,7 +9,9 @@ function nvm::internal::nvm::install {
 }
 
 function nvm::internal::nvm::load {
-    [ -e "${YARN_PATH}/bin" ] && export PATH="${PATH}:${YARN_PATH}/bin"
+
+  # shellcheck source=/dev/null
+  [ -s "${NVM_DIR}/nvm.sh" ] && source "${NVM_DIR}/nvm.sh"
 }
 
 function nvm::internal::packages::install {
