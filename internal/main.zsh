@@ -20,4 +20,4 @@ nvm::internal::main::factory
 nvm::internal::nvm::load
 
 if ! core::exists curl; then core::install curl; fi
-if ! command -v nvm > /dev/null ; then nvm::internal::nvm::install; fi
+if ! core::exists nvm; then nvm::internal::nvm::install; fi
