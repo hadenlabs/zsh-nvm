@@ -20,7 +20,6 @@ export NVM_PACKAGES=(
     typescript-language-server
     npm-check-updates
     js-to-ts-converter
-    bit-bin
     @compare/github
     codesandbox
     lerna
