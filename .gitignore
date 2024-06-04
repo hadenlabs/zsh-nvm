@@ -558,9 +558,12 @@ zsdoc/data
 bin
 .scannerwork
 .secrets
+public
 TMP_CHANGELOG.md
 .task
 .terraform.lock.hcl
 *.lock.hcl
+*.zip
 .external_modules
+vendor
 

@@ -77,7 +77,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), install this pl
 
 If you're using [Antibody](https://github.com/getantibody/antibody), install this plugin by doing the following:
 
-1.  Add :
+1. Add :
 
 ```{.sourceCode .bash}
 antibody bundle hadenlabs/zsh-nvm
@@ -158,7 +158,7 @@ Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following co
 
 ## Copyright
 
-Copyright © 2018-2023 [Hadenlabs](https://hadenlabs.com)
+Copyright © 2018-2024 [Hadenlabs](https://hadenlabs.com)
 
 ## Trademarks
 
