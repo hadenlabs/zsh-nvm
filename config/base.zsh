@@ -11,10 +11,12 @@ export NVM_VERSIONS=(
 export NVM_VERSION=0.39.5
 export NVM_VERSION_GLOBAL=18.18.2
 export NVM_PACKAGES=(
-    lambda-pure-prompt
-    pure-prompt prettier
-    localtunnel typescript
-    next webpack
+    npm
+    prettier
+    localtunnel
+    typescript
+    next
+    webpack
     standardx
     javascript-typescript-langserver
     typescript-language-server
