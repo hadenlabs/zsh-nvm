@@ -12,6 +12,7 @@ export NVM_VERSION=0.39.5
 export NVM_VERSION_GLOBAL=18.18.2
 export NVM_PACKAGES=(
     npm
+    pnpm
     prettier
     localtunnel
     typescript
