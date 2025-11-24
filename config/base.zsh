@@ -6,10 +6,10 @@ export NVM_DIR="${HOME}/.nvm"
 export NVM_MESSAGE_BREW="Please install brew or use antidote bundle hadenlabs/zsh-core"
 export NVM_PACKAGE_NAME=nvm
 export NVM_VERSIONS=(
-  20.18.1
+  24.11.1
 )
 export NVM_VERSION=0.39.5
-export NVM_VERSION_GLOBAL=20.18.1
+export NVM_VERSION_GLOBAL=24.11.1
 export NVM_PACKAGES=(
     npm
     pnpm
